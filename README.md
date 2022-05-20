@@ -26,16 +26,16 @@
 # Site Layout
 
 - [Sub-Domains](#Sub-Domains)
-  - [minenite.net](##minenite.net)
-      - [/home (landing)](###/home (landing))
-      - [/rules](###/rules)
-      - [/wiki](###/wiki)
-      - [/punishments](###/punishments)
-      - [/discord](###/discord)
-      - [/status](###/status)
-  - [panel.* (Pterodactyl Server Management Panel)](##panel.* (Pterodactyl Server Management Panel))
-  - [paste.* (Localized HasteBin)](##paste.* (Localized HasteBin))
-  - [map/maps.* (DynMap Viewer)](##map/maps.* (DynMap Viewer))
+  - [minenite.net](#minenite.net)
+      - [/home (landing)](#/home (landing))
+      - [/rules](#/rules)
+      - [/wiki](#/wiki)
+      - [/punishments](#/punishments)
+      - [/discord](#/discord)
+      - [/status](#/status)
+  - [panel.* (Pterodactyl Server Management Panel)](#panel.* (Pterodactyl Server Management Panel))
+  - [paste.* (Localized HasteBin)](#paste.* (Localized HasteBin))
+  - [map/maps.* (DynMap Viewer)](#map/maps.* (DynMap Viewer))
 
 # Sub-Domains
 ## minenite.net
