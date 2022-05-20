@@ -3,7 +3,7 @@
  <p align="center">UI = Argon Design System by Creative Tim</p>
   <p align="center">
     <a href="https://github.com/anuraghazra/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+      <img alt="Tests Passing" src="https://github.com/minenite/website/workflows/Test/badge.svg" />
     </a>
   </p>
 
