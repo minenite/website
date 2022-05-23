@@ -83,6 +83,14 @@ section
     display: block;
 }
 
+@font-face {
+    font-family: 'minecraftregular';
+    src: url('minecraftregular-bmg3-webfont.woff2') format('woff2'),
+    url('minecraftregular-bmg3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body
 {
     font-family: 'Open Sans', sans-serif;
@@ -496,13 +504,14 @@ h6,
 
     margin-bottom: .5rem;
 
-    color: #32325d;
+    color: #d1d1d1;
 }
 
 h1,
 .h1
 {
     font-size: 2.5rem;
+
 }
 
 h2,
@@ -5861,7 +5870,7 @@ input[type='button'].btn-block
 
 .navbar-dark .navbar-nav .nav-link
 {
-    color: rgba(255, 255, 255, .95);
+    color: rgb(0 251 224);
 }
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus
@@ -13862,6 +13871,11 @@ button.bg-darker:focus
     color: #5e72e4 !important;
 }
 
+.text-primary2
+{
+    color: #d1d1d1 !important;
+}
+
 a.text-primary:hover,
 a.text-primary:focus
 {
@@ -14556,14 +14570,21 @@ button.bg-lighter:focus
     background: linear-gradient(87deg, #2dce89 0, #2dcecc 100%) !important;
 }
 
-.bg-gradient-info
-{
-    background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+.bg-gradient-info2 {
+    background-image: linear-gradient(181deg, #de0ad75e 0, #4500d4b0 100%), url(https://i.imgur.com/ghjE5zI.png);
+    background-repeat: repeat;
+}
+
+/* Pixel module background */
+.pixelz {
+    background-image: url(https://i.imgur.com/ghjE5zI.png);
+    z-index: -1;
+    background-repeat: repeat;
 }
 
 .bg-gradient-warning
 {
-    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+    background: linear-gradient(87deg, #fb634080 0, #fbb1409c 100%), url(https://i.imgur.com/ghjE5zI.png);
 }
 
 .bg-gradient-danger
@@ -14756,14 +14777,14 @@ button.section-darker:focus
     background: linear-gradient(87deg, #2dce89 0, #2dcecc 100%) !important;
 }
 
-.bg-gradient-info
-{
-    background: linear-gradient(170deg, #220ade 0, #c355bb 100%) !important;
+.bg-gradient-info {
+    background-image: linear-gradient(359deg, #a30ade54 0, #4500d4d9 100%), url(https://i.imgur.com/ghjE5zI.png);
+    background-repeat: repeat;
 }
 
 .bg-gradient-warning
 {
-    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+    background: linear-gradient(87deg, #fb634080 0, #fbb1409c 100%), url(https://i.imgur.com/ghjE5zI.png);
 }
 
 .bg-gradient-danger
@@ -16730,11 +16751,10 @@ a.btn-icon-only
     border-radius: .3rem;
 }
 
-.footer
-{
-    padding: 3rem 0;
-
-    background: #f4f5f7;
+.footer {
+    padding: 1rem 0;
+    background-image: linear-gradient(#000000d6 0, #000000d6 100%), url(https://i.imgur.com/ghjE5zI.png);
+    background-repeat: repeat;
 }
 .footer .col-footer .heading
 {
@@ -17109,7 +17129,7 @@ textarea[resize='horizontal']
 .icon-shape-warning
 {
     color: #ff3709;
-    background-color: rgba(252, 140, 114, .5);
+    background-color: rgb(170 170 170 / 50%);
 }
 
 .icon-shape-danger
@@ -17704,9 +17724,9 @@ textarea[resize='horizontal']
 
 .navbar-nav .nav-link
 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: .9rem;
-    font-weight: 400;
+    font-family: 'minecraftregular';
+    font-size: 1.7rem;
+    font-weight: 550;
 
     transition: all .15s linear;
     letter-spacing: 0;
@@ -17899,7 +17919,7 @@ textarea[resize='horizontal']
     .navbar-transparent .navbar-nav .nav-link:hover,
     .navbar-transparent .navbar-nav .nav-link:focus
     {
-        color: rgba(255, 255, 255, .65);
+        color: rgb(0 251 224);
     }
     .navbar-transparent .navbar-nav .nav-link.disabled
     {
@@ -19788,8 +19808,8 @@ article h5 + figure
 {
     padding-top: .5rem;
     padding-bottom: .5rem;
-
-    background-color: #3618b39e !important;
+    background-image: linear-gradient(359deg, #a30ade54 0, #4500d4d9 100%), url(https://i.imgur.com/ghjE5zI.png);
+    background-repeat: repeat;
     box-shadow: 0 1px 10px rgba(130, 130, 134, .1);
 }
 
@@ -20323,7 +20343,6 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     left: auto;
 }
 
-}
 h1 { font-size: 3.5em; }
 h2 {
     color: #ffffff;
